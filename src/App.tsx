@@ -1,7 +1,7 @@
 import React from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import "./index.css";
-import { Button } from "./components/ui/button";
+//import { Button } from "./components/ui/button";
 import {
   Menubar,
   MenubarMenu,
@@ -10,10 +10,10 @@ import {
   MenubarItem,
   MenubarSeparator,
 } from "@radix-ui/react-menubar";
-import { MenubarShortcut } from "./components/ui/menubar";
+//import { MenubarShortcut } from "./components/ui/menubar";
 
 function ProfileHeader() {
-  const [count, setCount] = React.useState(0);
+  //const [count, setCount] = React.useState(0);
 
   return (
     <div className="bg-orange-50 p-6 rounded-2xl  shadow-lg flex flex-row justify-between items-center">
@@ -26,9 +26,7 @@ function ProfileHeader() {
           <MenubarTrigger>
             <div className="flex flex-row gap-4">
               <div className="flex flex-col items-end">
-                <p className="text-sm font-semibold">
-                  Ayrton Lacerda - {count}
-                </p>
+                <p className="text-sm font-semibold">Ayrton Lacerda</p>
                 <p className="text-sm">ayrton@redsparl.io</p>
               </div>
               <Avatar className="size-10">
