@@ -12,6 +12,12 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  server: {
+    cors: {
+      origin: "*", // Permite requisições de qualquer origem
+      methods: ["GET", "HEAD", "PUT", "POST", "DELETE", "PATCH"],
+    },
+  },
   build: {
     rollupOptions: {
       input: resolve(__dirname, "src/App.tsx"),
