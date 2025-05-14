@@ -26,7 +26,7 @@ function ProfileHeader() {
           <MenubarTrigger>
             <div className="flex flex-row gap-4">
               <div className="flex flex-col items-end">
-                <p className="text-sm font-semibold">Ayrton Lacerda</p>
+                <p className="text-sm font-semibold">Ayrton R. A. Lacerda</p>
                 <p className="text-sm">ayrton@redsparl.io</p>
               </div>
               <Avatar className="size-10">
